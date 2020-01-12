@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .b-page {
   width: 100%;
   min-width: 320px;
@@ -249,3 +250,45 @@
 }
 
 /*===================================================================== shopno-head end*/
+
+
+
+
+/*===================================================================== fonts start*/
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../fonts/Montserrat-Regular-ttf.ttf");
+  src: url("../fonts/Montserrat-Regular-wof.wof");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat-Bold-ttf.ttf");
+  src: url("../fonts/Montserrat-Bold-wof.wof");
+}
+
+@font-face {
+  font-family: Merriweather-Regular;
+  src: url("../fonts/Merriweather-Regular-ttf.ttf");
+  src: url("../fonts/Merriweather-Regular-wof.wof");
+}
+
+@font-face {
+  font-family: Merriweather-Bold;
+  src: url("../fonts/Merriweather-Bold-ttf.ttf");
+  src: url("../fonts/Merriweather-Bold-wof.wof");
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("../fonts/Raleway-Regular-ttf.ttf");
+  src: url("../fonts/Raleway-Regular-wof.wof");
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../fonts/Raleway-Bold-ttf.ttf");
+  src: url("../fonts/Raleway-Bold-wof.wof");
+}
+
+/*===================================================================== fonts end*/
