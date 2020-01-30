@@ -1,7 +1,6 @@
 "use strict"
 $(document).ready(function() {
 
-//===================================================================== shopno header menu start
     document.addEventListener("click", shopnoMenuHeader)
     function shopnoMenuHeader(event) {
         const getShopnoMenuId = $("#show-shopno-nav");
@@ -24,9 +23,8 @@ $(document).ready(function() {
             getShopnoMenuId.removeClass("show-shopno-nav")
         }
     }
-//===================================================================== shopno header menu end
 
-//===================================================================== slider (what they says) start
+
     $(".what-they-slider-box").slick({
         dots: true,
         dotsClass: "what-they-dots",
@@ -46,6 +44,14 @@ $(document).ready(function() {
             }
         }]     
     });
-//===================================================================== slider (what they says) end
+      
 });
 
+function initMap() {
+    var uluru = {lat: 49.99621911, lng: 36.23107284};
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: uluru});
+    var marker = new google.maps.Marker({position: uluru, map: map});
+  }
+
+  
